@@ -24,8 +24,8 @@ Yes if the user was expected to navigate between different URLs. The Routing Mod
 
 The RouterModule:
 
-- separates our routing concerns from our feature module
-- provides a module to replace or remove when testing our feature module
+- separates routing concerns from feature modules
+- provides a module to replace or remove when testing a feature module
 - provides a common place for require routing service providers including guards and resolvers
 - is not concerned with feature module declarations
 
